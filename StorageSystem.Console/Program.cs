@@ -32,24 +32,24 @@ namespace StorageSystem.Console
                 {
                     case "y":
                         Insert();
-                        return;
+                        break;
                     case "n":
                         System.Console.WriteLine("Оке");
-                        System.Console.ReadLine();
-                        return;
+                        break;
                     default:
                         System.Console.WriteLine("У Вас был выбор...");
-                        System.Console.ReadLine();
-                        return;
+                        break;
                 }
+                System.Console.ReadLine();
+                return;
             }
 
             int i = 0;
 
-            System.Console.WriteLine(string.Format("{0,-10} {1,-10} {2,-10} {3,-10}", "Название", "Цвет", "Материал", "Цена"));
+            System.Console.WriteLine(string.Format("{0}{1,-20} {2,-20} {3,-20} {4,-20}","№)", "Название", "Цвет", "Материал", "Цена"));
             foreach (var toy in toys)
             {
-                System.Console.WriteLine(string.Format("{0}){1,-10} {2,-10} {3,-10} {4,-10}", ++i, toy.Name, toy.Color, toy.Material, toy.Price));
+                System.Console.WriteLine(string.Format("{0}){1,-20} {2,-20} {3,-20} {4,-20}", ++i, toy.Name, toy.Color, toy.Material, toy.Price));
             }
 
             System.Console.WriteLine("Выберите действие:");
