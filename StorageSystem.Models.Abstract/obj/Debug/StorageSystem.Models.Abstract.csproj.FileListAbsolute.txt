@@ -1,0 +1,6 @@
+C:\Users\ww\source\repos\StorageSystem\StorageSystem.Models.Abstract\bin\Debug\StorageSystem.Models.Abstract.dll
+C:\Users\ww\source\repos\StorageSystem\StorageSystem.Models.Abstract\bin\Debug\StorageSystem.Models.Abstract.pdb
+C:\Users\ww\source\repos\StorageSystem\StorageSystem.Models.Abstract\obj\Debug\StorageSystem.Models.Abstract.csprojAssemblyReference.cache
+C:\Users\ww\source\repos\StorageSystem\StorageSystem.Models.Abstract\obj\Debug\StorageSystem.Models.Abstract.csproj.CoreCompileInputs.cache
+C:\Users\ww\source\repos\StorageSystem\StorageSystem.Models.Abstract\obj\Debug\StorageSystem.Models.Abstract.dll
+C:\Users\ww\source\repos\StorageSystem\StorageSystem.Models.Abstract\obj\Debug\StorageSystem.Models.Abstract.pdb
